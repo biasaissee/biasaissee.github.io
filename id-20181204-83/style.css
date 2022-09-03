@@ -1,0 +1,102 @@
+/* APENAS PARA AMBIENTE DE DESENVOLVIMENTO */
+body {
+    background-image: linear-gradient(#33B3B2, #4D98D2);
+    min-height: 100vh;
+}
+
+.carteirinha .profile-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.carteirinha .profile-icon h1 {
+    padding-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: -20px;
+}
+
+.carteirinha .card-info {
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    min-height: 500px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.carteirinha .card-info img {
+    max-width: 100%;
+}
+
+.carteirinha .situacao {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.carteirinha .situacao h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #41A4C3;
+    margin: 0;
+}
+
+.carteirinha .situacao h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #696969;
+}
+
+.carteirinha .card-info h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #41A4C3;
+    padding-left: 10px;
+}
+
+.carteirinha .card-info .blue-line {
+    background: #42A2C5;
+    border-radius: 2px;
+    height: 2px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.carteirinha .card-info h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: #696969;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.carteirinha .qr-code {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {}
